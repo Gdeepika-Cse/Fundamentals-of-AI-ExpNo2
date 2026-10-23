@@ -21,7 +21,7 @@ Step 2: Visit 0 and put its adjacent nodes which are not visited yet into the st
 Step 3: Now, Node 1 at the top of the stack, so visit node 1 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack.
  ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/e6017942-08b1-4742-87ad-c97eb97bf985)
 
-Visit node 1
+ Visit node 1
  Visit node 1
 
 Step 4: Now, Node 2 at the top of the stack, so visit node 2 and pop it from the stack and put all of its adjacent nodes which are not visited (i.e, 3, 4) in the stack.
@@ -32,7 +32,6 @@ Step 4: Now, Node 2 at the top of the stack, so visit node 2 and pop it from the
  
 Step 5: Now, Node 4 at the top of the stack, so visit node 4 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack.
  ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/20b76a05-5668-4da5-8189-e10fb1bb7238)
-
  Visit node 4
  Visit node 4
 
@@ -41,7 +40,6 @@ Step 6: Now, Node 3 at the top of the stack, so visit node 3 and pop it from the
 
 Visit node 3
 Visit node 3
-
 Now, the Stack becomes empty, which means we have visited all the nodes, and our DFS traversal ends.
 
 <h3>Algorithm:</h3>
