@@ -53,8 +53,8 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>Find its Successors Or neighbors and Check whether the node is visited or not</li>
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
-
 <hr>
+
 # program:
 ```
 from collections import defaultdict
@@ -84,11 +84,10 @@ path = []
 traversed_path = dfs(graph, start, visited, path)
 print(traversed_path)
 ```
-# output :
+## output :
 
 <img width="1135" height="807" alt="image" src="https://github.com/user-attachments/assets/679541ea-2632-4750-86b1-d0a1820b1e3b" />
 <img width="1295" height="792" alt="image" src="https://github.com/user-attachments/assets/edec141b-6908-4da0-b91b-e07eb5a0b48e" />
 
-<h3>Result:</h3>
-<hr>
-<p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
+## Result:
+Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.
