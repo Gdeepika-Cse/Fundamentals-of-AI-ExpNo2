@@ -4,7 +4,7 @@
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
-<strong>Depth First Traversal </strong>(or DFS) for a graph is like Depth First Traversal of a tree. The only catch here is that, unlike trees, graphs may contain cycles (a node may be visited twice). Use a Boolean visited array to avoid processing a node more than once. A graph can have more than one DFS traversal. 
+Depth First Traversal(or DFS) for a graph is like Depth First Traversal of a tree. The only catch here is that, unlike trees, graphs may contain cycles (a node may be visited twice). Use a Boolean visited array to avoid processing a node more than once. A graph can have more than one DFS traversal. 
 Depth-first search is an algorithm for traversing or searching trees or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 
 ## Step 1: Initially, stack and visited arrays are empty.
@@ -51,7 +51,6 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 # program:
 ```
 from collections import defaultdict
-
 def dfs(graph, start, visited, path):
     path.append(start)
     visited[start] = True
@@ -73,7 +72,6 @@ traversed_path = dfs(graph, start, visited, path)
 print(traversed_path)
 ```
 ## output :
-
 <img width="1135" height="807" alt="image" src="https://github.com/user-attachments/assets/679541ea-2632-4750-86b1-d0a1820b1e3b" />
 <img width="1295" height="792" alt="image" src="https://github.com/user-attachments/assets/edec141b-6908-4da0-b91b-e07eb5a0b48e" />
 
